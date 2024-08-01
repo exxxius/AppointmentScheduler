@@ -1,7 +1,6 @@
-# C195
-AppointmentScheduler
+# AppointmentScheduler
 Description:
-The AppointmentScheduler project is a scheduling application designed for managing appointments and customer information. This project was developed as part of the Software 2 Class at Western Governors University (WGU).
+The AppointmentScheduler project is a scheduling application designed for managing appointments and customer information. This project was developed as part of the Software 2 (C195) Class at Western Governors University (WGU).
 
 Features:
 
