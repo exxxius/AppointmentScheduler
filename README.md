@@ -1,7 +1,8 @@
 ### AppointmentScheduler
 
 **Description:**
-The AppointmentScheduler project is a scheduling application designed for managing appointments and customer information. This project was developed as part of the Software 2 (C915) Class at Western Governors University (WGU).
+The AppointmentScheduler project is a scheduling application designed for managing appointments and customer information. This project was developed as part of the Software 2 (C915) Class at Western Governors University (WGU). This application allows users to schedule appointments, manage customer data, and make reports. The business hours are 8:00 to 22:00 in Eastern Time Zone (New York). All dates and times are displayed in user's local timezone, however, all dates and times are converted into UTC Standard time zone format by the database driver manager, and saved into the database.
+	
 
 **Features:**
 - **User Authentication:** Secure login system for users.
