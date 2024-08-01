@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="541.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.Customers">
+    <children>
+        <TableView fx:id="CustomerTable" layoutX="50.0" layoutY="96.0" prefHeight="400.0" prefWidth="1200.0">
+            <columns>
+                <TableColumn fx:id="Customer_ID" prefWidth="75.0" text="Customer ID" />
+                <TableColumn fx:id="Customer_Name" prefWidth="113.33331298828125" text="Customer Name" />
+                <TableColumn fx:id="Address" prefWidth="206.0" text="Address" />
+                <TableColumn fx:id="Postal_Code" minWidth="0.0" prefWidth="82.6666259765625" text="Postal Code" />
+                <TableColumn fx:id="Phone_Number" prefWidth="112.0" text="Phone Number" />
+                <TableColumn fx:id="Create_Date" minWidth="0.0" prefWidth="128.142822265625" text="Create Date" />
+                <TableColumn fx:id="Create_By" prefWidth="90.99993896484375" text="Created By" />
+                <TableColumn fx:id="Last_Update" prefWidth="119.857177734375" text="Last Update" />
+                <TableColumn fx:id="Last_Updated_By" prefWidth="127.28582763671875" text="Last Updated By" />
+                <TableColumn fx:id="Division_ID" prefWidth="73.857177734375" text="Division_ID" />
+            </columns>
+        </TableView>
+        <AnchorPane layoutX="579.0" layoutY="600.0">
+            <children>
+                <HBox prefHeight="25.0" prefWidth="287.0" />
+            </children>
+        </AnchorPane>
+      <Button layoutX="461.0" layoutY="540.0" mnemonicParsing="false" onAction="#onActionAddCustomer" prefHeight="25.0" prefWidth="92.0" text="Add" />
+      <Button layoutX="604.0" layoutY="540.0" mnemonicParsing="false" onAction="#onActionModifyCustomer" prefHeight="25.0" prefWidth="92.0" text="Update" />
+      <Button layoutX="748.0" layoutY="540.0" mnemonicParsing="false" onAction="#onActionDeleteCustomer" prefHeight="25.0" prefWidth="92.0" text="Delete" />
+      <Label layoutX="579.0" layoutY="46.0" prefHeight="30.0" prefWidth="142.0" text="CUSTOMERS" textAlignment="RIGHT">
+         <font>
+            <Font name="Times New Roman Bold" size="20.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="732.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.MainMenu">
+    <children>
+        <AnchorPane layoutX="501.0" layoutY="300.0" />
+        <Button layoutX="14.0" layoutY="683.0" mnemonicParsing="false" onAction="#onActionLogOut" text="Log Out" />
+        <TabPane fx:id="tabPane" layoutX="14.0" layoutY="34.0" prefHeight="623.0" prefWidth="1275.0">
+            <tabs>
+                <Tab fx:id="customersTab" closable="false" text="Customers">
+                    <content>
+                        <AnchorPane fx:id="customerAnchorPane" prefHeight="200.0" prefWidth="200.0" />
+                    </content>
+                </Tab>
+                <Tab fx:id="appointmentsTab" closable="false" text="Appointments">
+                    <content>
+                        <AnchorPane fx:id="appointmentAnchorPane" prefHeight="200.0" prefWidth="200.0" />
+                    </content>
+                </Tab>
+                <Tab fx:id="reportsTab" closable="false" text="Reports">
+                    <content>
+                        <AnchorPane fx:id="reportAnchorPane" prefHeight="200.0" prefWidth="200.0" />
+                    </content>
+                </Tab>
+            </tabs>
+        </TabPane>
+    </children>
+</AnchorPane>
